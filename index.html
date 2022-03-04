@@ -6,76 +6,119 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Životopis</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="hlavička">
-        <img src="fotoDJ.jpg" alt="Moje foto" width="200" height="auto">
-        <h1>Dominika Jurinová</h1>
-    </header>
+    <div class="stlpecA">
+        <header class="hlavicka" id="hlavicka">
+            <img src="fotoDJ.jpg" alt="Moje foto" width="200" height="auto">
+            <h1>Dominika Jurinová</h1>
+        </header>
 
-    <section class="omne" id="omne">
-        <h2>O mne</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-
-    </section>
-
-    <section class="udaje" id="udaje">
-        <h2>Základné údaje</h2>
+        <section class="udaje" id="udaje">
+            <h2>Základné údaje</h2>
             
-        <table>
-            <tr>
-                <th>Dátum narodenia</th>
-                <td>28.5.1988</td>
-            </tr>
-            <tr>
-                <th>Občianstvo</th>
-                <td>slovenské</td>
-            </tr>
-            <tr>
-                <th>Status</th>
-                <td>slobodná</td>
-            </tr>
-            <tr>
-                <th>Vzdelanie</th>
-                <td>vysokoškolské</td>
-            </tr>
-        </table>
-    </section>
-
-<section class="kontakt" id="kontakt">
-    <h2>Kontakt</h2>
-    <table>
-        <tr>
-            <td><img src="maps_icon.jpg" alt="maps icon"></td>
-            <td><a href="https://mapy.cz/zakladni?x=16.5794354&y=49.2191964&z=17&source=addr&id=8924172&ds=1">Poznaňská 2<br>
+            <table class="tabulka_udaje" id="tabulka_udaje">
+                <tr>
+                    <th>Dátum narodenia</th>
+                    <td>28.5.1988</td>
+                </tr>
+                <tr>
+                    <th>Občianstvo</th>
+                    <td>slovenské</td>
+                </tr>
+                <tr>
+                    <th>Status</th>
+                    <td>slobodná</td>
+                </tr>
+                <tr>
+                    <th>Vzdelanie</th>
+                    <td>vysokoškolské</td>
+                </tr>
+            </table>
+        </section>
+    
+        <section class="kontakt" id="kontakt">
+            <h2>Kontakt</h2>
+            <table>
+                <tr>
+                    <td><img src="maps_icon.jpg" alt="maps icon"></td>
+                    <td><a href="https://mapy.cz/zakladni?x=16.5794354&y=49.2191964&z=17&source=addr&id=8924172&ds=1">Poznaňská 2<br>
                             61600 Brno</a></td>
-        </tr>
-        <tr>
-            <td><img src="phone_icon.jpg" alt="phone icon"></td>
-            <td>+420 776 333 555</td>
-        </tr>
-        <tr>
-            <td><img src="email_icon.jpg" alt="email icon"></td>
-            <td><a href="mailto:dominika.jurinova@gmail.com">dominika.jurinova@gmail.com</a></td>
-        </tr>
-        <tr>
-            <td> <img src="fb_icon.jpg" alt="fb icon"></td>
-            <td><a href="https://www.facebook.com/dominika.jurinova">Dominika Jurinová</a> </td>
-        </tr>
-    </table>
-</section>
-<section>
-    <h2>Vzdelanie</h2>
-</section>
-<section>
-    <h2>Pracovné skúsenosti</h2>
-</section>
-<section>
-    <h2>Znalosti a dovednosti</h2>
-</section>
-<section>
-    <h2>Záujmy</h2>
-</section>
+                </tr>
+                <tr>
+                    <td><img src="phone_icon.jpg" alt="phone icon"></td>
+                    <td>+420 776 333 555</td>
+                </tr>
+                <tr>
+                    <td><img src="email_icon.jpg" alt="email icon"></td>
+                    <td><a href="mailto:dominika.jurinova@gmail.com">dominika.jurinova@gmail.com</a></td>
+                </tr>
+                <tr>
+                    <td> <img src="fb_icon.jpg" alt="fb icon"></td>
+                    <td><a href="https://www.facebook.com/dominika.jurinova">Dominika Jurinová</a> </td>
+                </tr>
+            </table>
+        </section>
+    </div>
+
+    <div class="stlpecB">
+        <section class="omne" id="omne">
+            <h2>O mne</h2>
+            <p>Volám sa Dominika Jurinová. Pochádzam z Brezna, malého mesta na strednom Slovensku. Po strednej škole som odišla študovať do Olomouca, kde som na Palackého univerzite absolvovala v roku 2012 obor Právo. V sůčasnosti pracujem ako právnička na Masarykovej univerzite v Brne. Medzi moje záľuby patrí cestovanie, cyklistika, literatúra a hudba.</p>
+        </section>
+
+        <section class="vzdelanie" id="vzdelanie">
+            <h2>Vzdelanie</h2>
+            <ul>
+                <li>2007-2012: Univerzita Palackého, Olomouc, Právnická fakulta</li>
+                <li>2003-2007: Gymnázium J. Chalupku, Brezno</li>
+            </ul>
+        </section>
+        <section class="praca" id="praca">
+            <h2>Pracovné skúsenosti</h2>
+            <ul>
+                <li>5/2013- doteraz: Masarykova univerzita- právnička</li>
+                <li>9/2011: Okresní soud Brezno - odborná prax</li>
+                <li>12/2010: Okresní státní zastupitelství Olomouc - odborná prax</li>
+                <li>11/2010: Okresní prokuratura Brezno - odborná prax</li>
+            </ul>
+        </section>
+        <section class="znalosti" id="znalosti">
+            <h2>Znalosti a dovednosti</h2>
+            <ul>
+                <li>Jazyky: angličtina, nemčina, čeština</li>
+                <li>Práca na PC: MS Office, ASPI, CODEXIS, HTML, CSS, Javascript</li>
+                <li>vodičský preukaz sk. B</li>
+            </ul>
+        </section>
+        <section class="zaujmy" id="zaujmy">
+            <h2>Záujmy</h2>
+            <table class="tabulka_zaujmy">
+                <tr>
+                    <td><img src="plane.jpg" alt="plane"></td>
+                    <td>cestovanie</td>
+                </tr>
+                <tr>
+                    <td><img src="book.jpg" alt="book"></td>
+                    <td>literatúra</td>
+                </tr>
+                <tr>
+                    <td><img src="bike.jpg" alt="bike"></td>
+                    <td>cyklistika</td>
+                </tr>
+                <tr>
+                    <td><img src="music.jpg" alt="music"></td>
+                    <td>hudba</td>
+                </tr>
+                <tr>
+                    <td><img src="movie.jpg" alt="movie"></td>
+                    <td>filmy</td>
+                </tr>
+            </table>              
+                  
+        </section>
+</div>
 
 <footer class="paticka">
     <p>© 2022, Dominika Jurinová</p>

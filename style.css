@@ -1,5 +1,71 @@
-h1 {
-    color: hotpink;
+*, :after, :before { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5;
+    padding: 0.5em;
 }
 
+.hlavicka img {
+    border-radius: 50%;
+    padding: 20px 0 0 20px;
+}
+
+
+h1 {
+    color: rgb(221, 140, 180);
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+
+}
+
+h2{
+    font-family: 'Open Sans', sans-serif;
+    color: #282425;
+    text-align: center;  
+}
+
+.stlpecA {
+    width: 30%;
+    float:left;  
+    background-color: rgb(224, 213, 213);
+    margin-right: 30px;
+}
+
+.paticka{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: #282425;
+    padding: 20px 0;
+}
+
+.zaujmy {
+background-color: rgb(221, 140, 180);
+padding: 20px;
+margin: 20px;
+}
+
+.zaujmy img {
+    border-radius: 50%; 
+}
+.kontakt img{
+    border-radius: 50%;
+}
+
+.kontakt {
+    background-color: rgb(133, 204, 180);
+}
+
+.tabulka_zaujmy tr,
+ td{
+    display: inline-block;
+    align-items: center;
+}
+
+.kontakt a{
+    text-decoration: none;
+}
 
